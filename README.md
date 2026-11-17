@@ -1,5 +1,7 @@
 <div align="center">
 
+  <img src="assets/logo.svg" width="640" alt="android-cmux — the cmux client for Android">
+
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE.md)
   [![Version](https://img.shields.io/badge/Version-0.1.0-blue)](CHANGELOG.md)
   [![Type](https://img.shields.io/badge/Type-Android%20app-3DDC84)](#)
