@@ -22,6 +22,7 @@ cmux 的 Android 客户端：在 Android 手机上连接 macOS 上的 [cmux](htt
 |---|---|
 | 本项目硬约束、协议约束、构建要求 | `.pi/APPEND_SYSTEM.md`（自动加载） |
 | 技术栈、协议对接方式、构建与发布 | `DEVELOPMENT.md` |
+| 界面设计基准（会话列表 / 终端页 / 键盘条） | `UI.md` + `assets/ui/` |
 | 版本 / 变更 | `VERSION`、`CHANGELOG.md` |
 | 待办 | `TODO.md` |
 | 贡献者版权与许可 | `CONTRIBUTING.md` / `CONTRIBUTING_cn.md` |
