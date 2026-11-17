@@ -4,6 +4,12 @@ All notable changes to android-cmux are documented here.
 
 ## [0.1.0] - 2026-11-17
 
+### 新增（LOGO 与视觉标识）
+
+- **为什么**：两版 README 只有徽章、没有 LOGO，仓库在 GitHub 上缺一个一眼能认出的标识；这也是 `commit` skill 第 9a 步的标配缺口（TODO T4）。
+- **做了什么**：新增 `assets/logo.svg`（640×200，圆角 28px；深蓝黑渐变底 + 手机轮廓与终端提示符 `>_` 的绿青渐变图形 + 英文名称与定位）；`README.md` / `README_cn.md` 顶部居中区插入 LOGO；T4 归档。
+- **校验**：`icon-design` 的文字边界硬校验 `check-text-bounds.py` PASS（无裁切风险），轮廓为圆角矩形、文字全英文。
+
 ### 新增（UI 设计基线）
 
 - **为什么**：Android 端还没有界面设计依据，iOS 客户端的布局与交互是唯一现成参照。不先把参照固化成文档，后面每一屏都会各自发挥，返工不可避免。
