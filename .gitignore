@@ -1,0 +1,25 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+*.keystore
+*.jks
+.cxx/
+captures/
+
+# IDE
+.idea/
+*.iml
+
+# 本机与临时产物
+.env
+.env.*
+!.env.example
+settings.local.json
+tmp/
+artifacts/
+node_modules/
+.DS_Store
+__pycache__/
