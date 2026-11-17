@@ -4,6 +4,12 @@ All notable changes to android-cmux are documented here.
 
 ## [0.1.0] - 2026-11-17
 
+### 变更（待办清单补齐）
+
+- **为什么**：上一轮只看清单本身，没把「实现前必须存在的配套」列进去——发版链路、签名、测试防护网、断线续传、平台适配都是真实缺口，不记下来就会在某个环节才发现，那时返工成本最高。
+- **做了什么**：`TODO.md` 新增 T13（tag → Release 上传 APK）、T14（发布签名走 Secrets）、T15（单测与回归防护网挂 required check）、T16（断线重连与游标恢复）、T17（补 Gradle wrapper）、T18（校正版本口径）、T19（Android 平台适配：安全区 / IME / 返回手势 / 字号缩放）；T1 补上「iroh-ffi 版本必须钉成 `1.2.0-cmux.1`」；T5 完成并归档。活跃待办 16 条。
+- **依据**：T13 / T17 / T18 是文档与实现不一致（文档声称 Release 附 APK、写 `./gradlew` 但仓库无 wrapper、骨架版与首个可用版共用 0.1.0）；T14 / T15 是发布与回归防护的前提；T16 / T19 是移动端必需但之前只写在 `UI.md` 或协议说明里、没进待办。
+
 ### 新增（LOGO 与视觉标识）
 
 - **为什么**：两版 README 只有徽章、没有 LOGO，仓库在 GitHub 上缺一个一眼能认出的标识；这也是 `commit` skill 第 9a 步的标配缺口（TODO T4）。
